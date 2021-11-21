@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(darkheatcircle.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: wheat;
+  font-size: 3rem;
+}
+
+hr{
+  border-color: #680000;
+  border-radius: 255px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 3rem; /* rember u can always use rem instead of pixels (see css documentation)*/
+
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  background-color:wheat;
+  color: black;
+  opacity: 50%;
+  border-color: #680000;
+  
+}
+
+.btn-primary:hover {
+  background-color: #680000;
+  border-color: #680000;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
